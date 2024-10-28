@@ -42,6 +42,8 @@ export const Allroute = () => {
           element: <PageNotFound />,
         },
       ],
+      
+       
     },
   ]);
   return <RouterProvider router={router} />;
