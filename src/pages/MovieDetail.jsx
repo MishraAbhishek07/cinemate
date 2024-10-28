@@ -29,7 +29,7 @@ useEffect(() => {
   }
   
   
-, [])
+, [params.id])
 
 
 
