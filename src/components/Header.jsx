@@ -14,8 +14,9 @@ export const Header = () => {
       event.preventDefault()
       const queryTerm=event.target.search.value
       event.target.reset()
+      sethidden(!hidden)
       return navigate(`/search?q=${queryTerm}`)
-
+     
   }
 
   // Update localStorage when darkMode changes
